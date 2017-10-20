@@ -4,10 +4,12 @@ import { RouterModule } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { AppComponent } from './app.component';
+import { EricSmithComponent } from './eric-smith/eric-smith.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EricSmithComponent
   ],
   imports: [
     BrowserModule,
