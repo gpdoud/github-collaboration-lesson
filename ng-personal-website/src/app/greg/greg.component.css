@@ -1,0 +1,7 @@
+table, tr, th, td {
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 18pt;
+}
+table {
+	width: 50%;
+}
