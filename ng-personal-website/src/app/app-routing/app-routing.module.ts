@@ -5,8 +5,12 @@ import { SueAnnComponent } from '../sue-ann/sue-ann.component';
 
 import { GregComponent } from '../greg/greg.component';
 
+// components
+import { EricSmithComponent } from '../eric-smith/eric-smith.component';
+
 const approutes: Routes = [
-	{ path: '', redirectTo: '/', pathMatch: "full" },
+  { path: '', redirectTo: '/', pathMatch: "full" },
+  { path: 'ericsmith', component: EricSmithComponent },
 	{ path: "sue-ann", component: SueAnnComponent},
 	{ path: 'greg', component: GregComponent }
 ];
