@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
 import { AppComponent } from './app.component';
 import { EricSmithComponent } from './eric-smith/eric-smith.component';
 import { SueAnnComponent } from './sue-ann/sue-ann.component';
+import { EricBComponent } from './EricB/EricB.component';
 import { GregComponent } from './greg/greg.component';
 
 @NgModule({
@@ -13,6 +14,7 @@ import { GregComponent } from './greg/greg.component';
     AppComponent,
     EricSmithComponent,
     SueAnnComponent,
+    EricBComponent,
     GregComponent
   ],
   imports: [
