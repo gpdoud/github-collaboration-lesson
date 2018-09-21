@@ -3,8 +3,8 @@ import {Router, ActivatedRoute, ParamMap} from '@angular/router';
 
 @Component({
   selector: 'app-about',
-  templateUrl: './about.component.html',
-  styleUrls: ['./about.component.css']
+  templateUrl: './EricB.component.html',
+  styleUrls: ['./EricB.component.css']
 })
 export class EricBComponent implements OnInit {
 
